@@ -1,0 +1,41 @@
+body {
+    background-image: url(
+https://i.pinimg.com/originals/a2/3f/0f/a23f0fa4d39941be847294e3abb89fd2.gif);
+  background-size: auto 100vh;
+  font-family: Comic Sans MS;
+    height: 100vh;
+  }
+  
+  a {
+    color: salmon;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+   list-style: none; 
+  }
+
+.site-title {
+    color: LIGHTSTEELBLUE;
+  }
+  
+  .site-subtitle {
+    color: salmon;
+  }
+
+.site-title {
+  text-align: center;
+}
+
+.site-subtitle {
+  text-align: center;
+}
