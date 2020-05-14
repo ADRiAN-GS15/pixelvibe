@@ -1,9 +1,44 @@
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background-image: url(
 https://i.pinimg.com/originals/a2/3f/0f/a23f0fa4d39941be847294e3abb89fd2.gif);
-  background-size: auto 100vh;
+  background-size: 200vh 100vh;
   font-family: Comic Sans MS;
     height: 100vh;
+    font-size: 12px;
+  }
+
+  @media (min-width: 400px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    body {
+      font-size: 22px;
+    }
+  }
+
+
+  header {
+    height: 50vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
   }
   
   a {
@@ -15,6 +50,11 @@ https://i.pinimg.com/originals/a2/3f/0f/a23f0fa4d39941be847294e3abb89fd2.gif);
     text-decoration: underline;
   }
   
+  .menu {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
   .menu ul {
     display: flex;
     justify-content: space-around;
@@ -24,18 +64,25 @@ https://i.pinimg.com/originals/a2/3f/0f/a23f0fa4d39941be847294e3abb89fd2.gif);
    list-style: none; 
   }
 
+  .menu a {
+   display: block;
+   padding: 10px 20px;
+  }
+
 .site-title {
-    color: LIGHTSTEELBLUE;
+    color: lightcoral;
+    text-align: center;
   }
   
   .site-subtitle {
     color: salmon;
+    text-align: center;
   }
 
-.site-title {
-  text-align: center;
-}
+  .site-title {
+    font-size: 1.5em;
+  }
 
-.site-subtitle {
-  text-align: center;
-}
+  .site-subtitle {
+    font-size: ;
+  }
