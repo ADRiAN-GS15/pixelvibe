@@ -8,7 +8,11 @@
 body {
     background-image: url(
 https://i.pinimg.com/originals/a2/3f/0f/a23f0fa4d39941be847294e3abb89fd2.gif);
-  background-size: 200vh 100vh;
+background-attachment: fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+background-color: black;
+ background-size: 200vh 100vh;
   font-family: Comic Sans MS;
     height: 100vh;
     font-size: 12px;
